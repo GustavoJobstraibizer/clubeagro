@@ -1,0 +1,33 @@
+{
+  "name": "clubeagro-color",
+  "displayName": "clubeagro-color",
+  "description": "",
+  "version": "0.0.1",
+  "publisher": "clube-agro",
+  "engines": {
+    "vscode": "^1.49.0"
+  },
+  "scripts": {
+    "vscode:prepublish": "vsce publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clubeagro/visual-studio-code.git"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "ClubeAgro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/clube-agro.json"
+      }
+    ]
+  },
+  "icon": "icon.png",
+  "devDependencies": {
+    "vsce": "^1.79.5"
+  }
+}
